@@ -738,7 +738,7 @@ const unit1Topics = [
       },
     ],
   },
-]:=;=
+]
 const unit2Topics = [
   {
     title: "Topic 2.1: Interaction of Heredity and Environment",
