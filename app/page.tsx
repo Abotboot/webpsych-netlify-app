@@ -1,6 +1,6 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Card } from "@/components/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+import { ScrollArea } from "@/components/scroll-area"
+import { Card } from "@/components/card"
 import { ChevronRight } from "lucide-react"
 
 export default function PsychologyTerms() {
@@ -175,7 +175,7 @@ function HomeContent() {
   )
 }
 
-function UnitContent({ title, description, topics }) {
+function UnitContent({ title, description, topics }: { title: string, description: string, topics: { title: string, terms: { name: string, definition?: string, example?: string, significance?: string }[] }[] }) {
   return (
     <div className="space-y-8">
       <div className="mb-8">
@@ -200,7 +200,7 @@ function UnitContent({ title, description, topics }) {
   )
 }
 
-function TermCard({ term }) {
+function TermCard({ term }: { term: { name: string, definition?: string, example?: string, significance?: string, subtypes?: { name: string, definition?: string }[] } }) {
   return (
     <Card className="overflow-hidden bg-white hover:shadow-md transition-shadow">
       <div className="p-5">
