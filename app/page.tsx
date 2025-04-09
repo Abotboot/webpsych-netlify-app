@@ -4054,13 +4054,14 @@ const unit6Topics = [
         definition: "The end of the lifespan, involving biological, psychological, and social aspects.",
         significance: "Understanding perspectives on death and the grieving process.",
        },
-      {
+       {
         name: "Kübler-Ross Stages of Grief/Dying",
         definition: "A model proposing five stages people may go through when facing death or loss: Denial, Anger, Bargaining, Depression, Acceptance.",
-        significance: "Historically influential but widely criticized for lacking empirical support as rigid, sequential stages. Grief is now understood as a highly variable and individual process, not necessarily following these stages in order.", Key Figure: Elisabeth Kübler-Ross.
+        significance: "Historically influential but widely criticized for lacking empirical support as rigid, sequential stages. Grief is now understood as a highly variable and individual process, not necessarily following these stages in order.",
+        keyFigure: "Elisabeth Kübler-Ross"
       },
     ],
-  },
+  }
 ]
 
 const unit7Topics = [
